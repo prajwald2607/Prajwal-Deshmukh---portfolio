@@ -10,14 +10,72 @@
   height: 2vw;
   width: 2vw;
 }
-.top{
-  background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(/images/bgp.jpg);
+.Navbar {
+  background-color: rgba(0, 0, 0, 0.835);
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
 
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+    
+.Navbar__Items {
+    display:none;
+  }
+    
+.Navbar__Items--right {
+    margin-left:0;
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+    
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url(/images/bgp.jpg);
   background-position: center;
-  background-size: cover;
-  
-  padding: 20px;
+  background-size:cover;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  margin: auto;
+  width: 100%;
+  text-align:center;
+  color: white;
+  text-shadow: black 50px;
+
+
+}
+.top{
+  padding: 20px;
   font-size: 30px;
   margin: auto;
   width: 100%;
@@ -36,7 +94,8 @@
   display: flex;
   margin: auto;
   justify-content: space-evenly;
-  text-align: center;
+  text-align: center;margin-bottom: 5vw;
+  margin-top: 5vw;
 }
 .skill{
   border-radius: 15px;
@@ -50,8 +109,31 @@
   margin: auto;
   justify-content: space-evenly;
   text-align: center;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
 }
-
+.dblogo{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.tool{
+  display: flex;
+  margin:auto;
+  justify-content: space-evenly;
+  margin-bottom: 8vw;
+  margin-top: 5vw;
+}
+.other{
+  display: flex;
+  margin:auto;
+  justify-content: space-evenly;
+  margin-bottom: 8vw;
+  margin-top: 5vw;
+}
 .icon{
   width: 25%;
   border-radius: 20px;
@@ -66,12 +148,13 @@
 }
 .About{
   width: 50%;
-  text-align: left;
+  text-align:left;
   margin:100px auto 100px ;
+  
 }
 .skills{
  
-  text-align: left;
+  /* text-align: left; */
   margin:100px auto 100px ;
 }
 .contact-me{

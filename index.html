@@ -12,8 +12,33 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body>
+  <div class="Navbar">
+    <div class="Navbar__Link Navbar__Link-brand">Website title</div>
+     <div class="Navbar__Link Navbar__Link-toggle">
+       <i class="fas fa-bars"></i>
+     </div>
+   <nav class="Navbar__Items">
+     <div class="Navbar__Link">
+       Longer Link
+     </div>
+     <div class="Navbar__Link">
+       Longer Link
+     </div>
+     <div class="Navbar__Link">
+       Link
+     </div>
+   </nav>
+   <nav class="Navbar__Items Navbar__Items--right">
+     <div class="Navbar__Link">
+       Link
+     </div>
+     <div class="Navbar__Link">
+       Link
+     </div>
+   </nav>
+ </div>
 
+<section id="home">
 <div class="top">
   <div class="profile">
     <img class="profile-pic"src="images/mypic.jpg" alt="">
@@ -28,8 +53,9 @@
     <i class="fa-brands fa-lg fa-facebook"></i>
 
   </div>  
-  <hr>
-  <section class="Aboutme">
+</section>
+  
+  <section id="aboutme">
   <div class="About">
     <h2 style="text-align: center;">About me </h2>
       <p>👋 Hi, I’m @prajwald2607 <br>
@@ -41,12 +67,17 @@
         🌐 portfolio: https://bio.link/prajwald2607</p>
     </div>
   </section>
-  <section class="myskills">
+
+  <section id="myskills">
     <div class="skills">
       
-      <h2 style="text-align: center;">My skills</h2>
+      <h1 style="text-align: center;font-size: 4vw;">My skills</h1>
+
+
       <div class="skillset">
-        <h2>Languages:</h2>
+
+
+        <h2>Languages</h2>
         <div class="langlogo">
           <div class="skill"><i class="fa-solid fa-c" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">C</div></div>
 
@@ -57,10 +88,13 @@
           <div class="skill"> <i class="fa-brands fa-html5" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">HTML</div></div> 
           
         </div>
-        <h2>Technologies/Frameworks : </h2>
+
+        <h2>Technologies/Frameworks</h2>
         <div class="techlogo">
           
           <div class="skill"><i class="fa-solid fa-laptop-code" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Web</div></div>
+          
+          <div class="skill"><i class="fa-brands fa-aws" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(78, 248, 39);"></i><div style="margin-top: 1.1vw; color: rgb(78, 248, 39);">AWS</div></div>
 
           <div class="skill"> <i class="fa-brands fa-node" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Nodejs</div></div> 
           
@@ -69,18 +103,41 @@
           <div class="skill"><i class="fa-brands fa-wordpress" style="margin: 1; padding: 0;font-size: 2vw;color: rgb(51, 251, 11);"></i><div style="margin-top: 1.1vw; color: rgb(51, 251, 11);">Wordpress</div></div>
 
           <div class="skill"><i class="fa-brands fa-blogger" style="margin: 1; padding: 0;font-size: 2vw;color: rgb(246, 132, 50);"></i><div style="margin-top: 0.1vw;color: rgb(246, 132, 50);">Blog</div></div>
+
         </div>
 
-        <h2>Databases:</h2>
+        <h2>Databases</h2>
         <div class="dblogo">
+          <div class="skill"><i class="fa-solid fa-database" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Web</div></div>
+
+          <div class="skill"> <i class="fa-solid fa-fire" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Nodejs</div></div> 
+          
+          <div class="skill"> <i class="fa-solid fa-server" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Expressjs</div></div> 
 
         </div>
-        <h2>Tools:</h2>
+        <h2>Tools</h2>
         <div class="tool">
 
+          <div class="skill"><i class="fa-brands fa-git" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Git</div></div>
+
+          <div class="skill"> <i class="fa-brands fa-github" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Github</div></div> 
+          
+          <div class="skill"> <i class="fa-solid fa-laptop-code" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Vs code</div></div> 
+
+          <div class="skill"> <i class="fa-solid fa-laptop-code" style="margin: 1; padding: 0;font-size: 2vw; color: yellow;"></i><div style="margin-top: 0.1vw; color: yellow;">Pycharm</div></div> 
+
+
         </div>
-        <h2>Other:</h2>
+        <h2>Other</h2>
         <div class="other">
+          
+          <div class="skill"><i class="fa-solid fa-palette" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Graphics Designing</div></div>
+
+          <div class="skill"><i class="fa-brands fa-unity" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">3d animation</div></div>
+
+          <div class="skill"><i class="fa-solid fa-user-group" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Team management</div></div>
+          
+          <div class="skill"><i class="fa-solid fa-users" style="margin: 1px; padding: 2;font-size: 2vw; color: rgb(75, 164, 229);"></i><div style="margin-top: 1.1vw; color: rgb(75, 164, 229);">Team Leadership</div></div>
 
         </div>
 
@@ -88,6 +145,7 @@
     </div>
   </section>
   <hr>
+
   <div class="contact-me">
     <h2>Get in touch</h2>
     <h3>Lorem ipsum dolor sit amet, non elit.</h3>
@@ -104,6 +162,16 @@
   <p>© Prajwal Deshmukh.</p>
 </div>
 
+<script>
+  function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
 
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+</script>
   </body>
+ 
 </html>
