@@ -1,42 +1,26 @@
-.profile-pic{
-  width:250px;
-  height: 250px;
-  border-radius: 50%;
-
-}
-.fa-brands{
-  margin: 0.7vw;
-  color: rgb(253, 255, 255);
-  height: 2vw;
-  width: 2vw;
-}
 body{
   background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url(images/bgp.jpg);
   background-position: center;
   background-size:cover;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px;
-  font-size: 30px;
-  margin: auto;
-  
   width: 100%;
-  /* text-align:center; */
   color: white;
   text-shadow: black 50px;
 }
 .navbar{
-    display: flex;
-    position:fixed;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    width: 100%;
+  display: flex;
+  position:sticky;
+  top:0;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 46px;
   
 }
 .logo{
-  font-size: 2.0rem;
-  margin: .5rem;
+  font-size: 25px;
+  margin: 10px;
 }
 .navbar-links {
   height: 100%;
@@ -53,7 +37,9 @@ body{
   display: block;
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 2px; 
+  font-size: 18px;
+  margin: 10px;
 }
 .navbar-links li:hover{
   background-color: #555;
@@ -74,17 +60,46 @@ body{
   background-color: white;
   border-radius:10px;
 }
-.top{
-  padding: 20px;
+#home{
+  margin-top: 80px;
+}
+#name{
+  font-size: 20px;
+}
+.profile{
+  width: 50%;
+  float:left;
+  
+}
+.profile-pic{
+  width:140px;
+  height: 130px;
+  border-radius: 50%;
+}
+.introo{
+  display: inline-block;
+  width: 42%;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 85px;
+  padding-right: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+.fa-brands{
+  margin: 0.7vw;
+  color: rgb(253, 255, 255);
+  height: 2vw;
+  width: 2vw;
+}
+
+
+.intro{
   font-size: 30px;
-  margin: auto;
-  margin-top: 70px;
-  width: 100%;
+  margin-top: 20px;
   text-align:center;
   color: white;
   text-shadow: black 50px;
 }
-
 .skillset{
   text-align: center;
   width: 70%;
@@ -148,10 +163,13 @@ body{
   margin-left: 30px;
 }
 .About{
-  width: 50%;
+  width: 100%;
   text-align:left;
   margin:100px auto 100px ;
-  
+}
+#aboutme{
+  width: 100%;
+  margin-top: 160px;
 }
 .skills{
  
@@ -168,7 +186,7 @@ bottom-container{
   background: #30e3cb;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .navbar {
       flex-direction: column;
       align-items: flex-start;
