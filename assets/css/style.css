@@ -38,12 +38,6 @@
 /* Default  */
 
 
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
 :root {
@@ -53,7 +47,7 @@
   --color-gray: #f6f6f6;
   --color-subtitle: #fd4520;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
-  --background-color-2: #212428;
+  --background-color-2: #eff6ff;
   --shadow-1: 10px 10px 19px #1c1e22,
         -10px -10px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
@@ -5312,7 +5306,7 @@ ul.slick-dots {
   padding: 30px;
   background: var(--background-color-1);
   box-shadow: var(--shadow-1);
-  border-radius: 15px; }
+  border-radius: 50px; }
   .rn-video-popup-area .thumbnail img {
     border-radius: 8px;
     object-fit: cover; }
